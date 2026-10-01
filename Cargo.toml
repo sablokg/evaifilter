@@ -1,0 +1,16 @@
+[package]
+name = "evaifilter"
+version = "0.7.0"
+edition = "2024"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "evaifilter for human genomics"
+homepage = "https://codeberg.org/gsablok/evaifilter"
+repository = "https://codeberg.org/gsablok/evaifilter"
+keywords = ["bioinformatics","genomics"]
+
+[dependencies]
+clap = { version = "4.5.39", features = ["derive"] }
+figlet-rs = "0.1.5"
+rayon = "1.11.0"
